@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚆 Railway Management System
 
-## Getting Started
+A full-stack web application for managing railway operations, including train schedules, ticket booking, and user authentication. The system provides a seamless interface for users to search trains, book tickets, and manage travel data efficiently.
 
-First, run the development server:
+📌 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project simulates a real-world railway management system with features like user authentication, booking, and data management. It demonstrates full-stack development using React and MongoDB, focusing on usability and efficient data handling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Features
+🔐 User authentication (Login / Signup)
+🚆 View train schedules and details
+🔍 Search trains based on routes
+🎫 Ticket booking and cancellation system
+📊 Manage railway data efficiently
+📱 Responsive UI for better user experience
+🛠️ Tech Stack
+Frontend: React
+Backend: (Add Node.js / Express if you used it, otherwise remove this line)
+Database: MongoDB
+Other: HTML, CSS
+👨‍💻 Contribution
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This was a group project developed collaboratively.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+My Contributions:
+Developed frontend components using React
+Designed user interface using HTML and CSS
+Implemented train search and booking UI
+Integrated frontend with backend/database for data handling
+Team Contributions:
+Backend development and API implementation
+Database schema design and management
+Authentication system implementation
+Testing and debugging
+⚙️ Setup Instructions
 
-## Learn More
+Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+git clone https://github.com/AyushJha004/Railway-Management-System.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Navigate to the project folder:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+cd Railway-Management-System
 
-## Deploy on Vercel
+Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Start the application:
+
+npm start
+
+Open in browser:
+
+http://localhost:3000
+📈 Future Improvements
+Real-time train tracking system
+Payment gateway integration
+Admin dashboard for managing trains
+Improved UI/UX design
